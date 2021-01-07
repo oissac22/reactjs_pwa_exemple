@@ -14,6 +14,8 @@ import { precacheAndRoute, createHandlerBoundToURL } from 'workbox-precaching';
 import { registerRoute } from 'workbox-routing';
 import { StaleWhileRevalidate } from 'workbox-strategies';
 
+console.log('pwa run');
+
 declare const self: ServiceWorkerGlobalScope;
 
 clientsClaim();
